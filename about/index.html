@@ -2,6 +2,10 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="my first works" />
+    <meta name="keywords" content="HTML" />
+    <meta name="author" content="Tonya Kolb" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title</title>
   </head>
   <body>
@@ -24,7 +28,7 @@
       <del>волею судьбы</del>
       благодаря маркетингу &#128517;.
     </p>
-    <hr>
+    <hr />
     <blockquote>
       Что ни делается, всё к лучшему &#128170;.<br />
       <cite>
@@ -43,5 +47,154 @@
     <br />
     <b>GitHub:</b>
     <a href="https://github.com/tonyakolb">tonyakolb</a>
+    <hr />
+    <img src="../images/kittens.jpeg" alt="kittens" />
+    <hr />
+    <ol>
+      <li>
+        Знакомство с Web
+        <ul>
+          <li>Краткая история Web и как устроен интернет</li>
+          <li>Как устроен браузер и как он получает страницы по сети</li>
+          <li>Что такое Git?</li>
+          <li>Создание первого репозитория</li>
+          <li>О файле .gitignore</li>
+        </ul>
+      </li>
+      <li>
+        HTML-вёрстка – первые шаги
+        <ul>
+          <li>Настройка рабочей среда</li>
+          <li>Краткая история HTML</li>
+          <li>Типы тегов и атрибуты</li>
+          <li>Теги для работы с текстом</li>
+          <li>Создание собственной страницы</li>
+          <li>Основы ветвления в Git</li>
+          <li>Создание pull request на GitHub</li>
+        </ul>
+      </li>
+      <li>
+        Погружение в HTML-разметку
+        <ul>
+          <li>Мета-теги</li>
+          <li>Мнемоники</li>
+          <li>Теги для работы со списками</li>
+          <li>Теги для работы с таблицами</li>
+          <li>Теги для работы с формами</li>
+          <li>div и span</li>
+        </ul>
+      </li>
+    </ol>
+    <hr />
+    <table border="1" width="80%">
+      <thead>
+        <tr>
+          <th>Tag</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>Defines a table</td>
+        </tr>
+        <tr>
+          <td>&lt;tr&gt;</td>
+          <td>Defines a row in a table</td>
+        </tr>
+        <tr>
+          <td>&lt;th&gt;</td>
+          <td rowspan="2">Defines a "header cell"/"cell" in a table</td>
+        </tr>
+        <tr>
+          <td>&lt;td&gt;</td>
+        </tr>
+        <tr>
+          <td colspan="2">Rarely used</td>
+        </tr>
+        <tr>
+          <td>&lt;caption&gt;</td>
+          <td>Defines a table caption</td>
+        </tr>
+        <tr>
+          <td>&lt;thread&gt;</td>
+          <td>Groups the header content in a table</td>
+        </tr>
+        <tr>
+          <td>&lt;tbody&gt;</td>
+          <td>Groups the body content in a table</td>
+        </tr>
+        <tr>
+          <td>&lt;tfoot&gt;</td>
+          <td>Groups the footer content in a table</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <form action="/">
+      <fieldset>
+        <legend>My first form</legend>
+        <p>
+          <label for="name">Name</label><br />
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Name"
+            required
+          />
+        </p>
+        <p>
+          <label for="email">Email</label><br />
+          <input id="email" name="email" type="email" required />
+        </p>
+        <p>
+          <label for="password">Password</label><br />
+          <input id="password" name="password" type="password" required />
+        </p>
+        <p>
+          <label for="level">Your programming level</label> <br />
+          <input id="level" name="level" type="range" min="1" max="10" />
+        </p>
+        <p>
+          What does HTML stand for?<br />
+          <input id="box1" name="html" type="checkbox" value="1" />
+          <label for="box1">Hyperlinks and Text Markup Language</label><br />
+          <input id="box2" name="html" type="checkbox" value="2" />
+          <label for="box2">Home Tool Text Markup Language</label><br />
+          <input id="box3" name="html" type="checkbox" value="3" />
+          <label for="box3">Hyper Text Markup Language</label><br />
+        </p>
+        <p>
+          What does HTTP stand for?<br />
+          <input id="1" name="http" type="radio" value="1" />
+          <label for="1">Hyper Text Translate Protocol</label><br />
+          <input id="2" name="http" type="radio" value="2" />
+          <label for="2">Hyper Text Transmission Protocol</label><br />
+          <input id="3" name="http" type="radio" value="3" />
+          <label for="3">Hyper Text Transfer Protocol</label><br />
+        </p>
+        <p>
+          <label for="comment">Comment</label><br />
+          <textarea
+            id="comment"
+            name="comment"
+            placeholder="Comment"
+            maxlength="500"
+          ></textarea>
+        </p>
+        <p>
+          <label for="select_html">Comment</label><br />
+          <select id="select_html" name="select_html">
+            <option disabled selected>Your answer</option>
+            <option value="1">Hyperlinks and Text Markup Language</option>
+            <option value="2">Home Tool Text Markup Language</option>
+            <option value="3">Hyper Text Markup Language</option>
+          </select>
+        </p>
+        <button>Send</button>
+      </fieldset>
+    </form>
   </body>
 </html>
+¸
