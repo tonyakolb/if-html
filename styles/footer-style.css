@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-500.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  background: #10367c;
+  margin: 0;
+}
+
+span {
+  color: #ffffff;
+}
+
+.footer {
+  min-height: 630px;
+  padding: 120px 272px 0 104px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  height: 211px;
+  justify-content: space-between;
+}
+
+.property {
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  justify-content: space-between;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  height: 122px;
+  justify-content: space-between;
+}
+
+.text-bold {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.company {
+  margin: 87px 0 120px 1px;
+}
+
+.text-small {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
