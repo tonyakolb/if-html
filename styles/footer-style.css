@@ -1,22 +1,3 @@
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto-500.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto-regular.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
-}
-
-body {
-  background: #10367c;
-  margin: 0;
-}
-
 span {
   color: #ffffff;
 }
@@ -24,6 +5,7 @@ span {
 .footer {
   min-height: 630px;
   padding: 120px 272px 0 104px;
+  background: #10367c;
 }
 
 .main {

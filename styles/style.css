@@ -1,18 +1,8 @@
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto-500.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/roboto-regular.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
-}
 body {
   margin: 0;
+  background: #ffffff;
 }
+
 .advantages {
   border: 1px solid #ffffff;
   min-height: 569px;
@@ -39,6 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .block {
@@ -47,7 +38,7 @@ body {
   flex-direction: column;
 }
 
-span {
+.text-advantages {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-style: normal;
