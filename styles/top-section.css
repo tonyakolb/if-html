@@ -1,22 +1,25 @@
 body {
   margin: 0;
-  max-height: 900px;
+  height: 100vh;
   min-width: 1440px;
+}
+
+header {
   background-image: url("../images/castelmezzano.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header {
   height: 46px;
   width: 1232px;
-  margin: 51px 104px 0;
+  padding: 51px 104px 0;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  align-content: center;
   justify-content: space-between;
 }
 
-.right-part {
+nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -26,11 +29,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: white;
+  color: #ffffff;
 }
 
 .title-header {
   font-size: 24px;
+  margin-bottom: 12px;
 }
 
 .logo_sett {
@@ -52,6 +56,7 @@ body {
 
 .words {
   margin-right: 48px;
+  margin-bottom: 12px;
 }
 
 .stays {
@@ -60,6 +65,7 @@ body {
 
 .words a {
   text-decoration: none;
+  padding: 12px;
 }
 
 .words a:hover {
@@ -99,7 +105,6 @@ body {
   margin: 0 113px 120px 0;
   background-color: #f3f3f4;
   padding: 3px 0 3px 3px;
-
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -131,6 +136,8 @@ input[type="text"] {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  color: #383838;
+  padding-left: 24px;
 }
 
 button {
@@ -152,7 +159,7 @@ button {
 .apps {
   margin-right: 385px;
   margin-left: 281px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
   display: flex;
   justify-content: center;
 }
