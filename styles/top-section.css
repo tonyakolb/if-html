@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  max-height: 900px;
+  min-width: 1440px;
+  background-image: url("../images/castelmezzano.svg");
+}
+
+.header {
+  height: 46px;
+  width: 1232px;
+  margin: 51px 104px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.right-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.roboto-400 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+
+.title-header {
+  font-size: 24px;
+}
+
+.logo_sett {
+  width: 30px;
+  height: 30px;
+  margin-right: 24px;
+}
+
+.logo_acc {
+  width: 40px;
+  height: 40px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.words {
+  margin-right: 48px;
+}
+
+.stays {
+  margin-right: 24px;
+}
+
+.words a {
+  text-decoration: none;
+}
+
+.words a:hover {
+  border-bottom: 4px solid #f5bd41;
+}
+
+.page {
+  margin-left: 104px;
+  margin-top: 196px;
+}
+
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: white;
+}
+
+.title-page {
+  font-size: 18px;
+}
+
+.signatures {
+  margin-top: 100px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.sign {
+  margin-right: 221px;
+}
+
+.search {
+  height: 58px;
+  width: 1220px;
+  margin: 0 113px 120px 0;
+  background-color: #f3f3f4;
+  padding: 3px 0 3px 3px;
+
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  height: 98%;
+  border: none;
+}
+
+#destination {
+  width: 38%;
+  border-radius: 8px 0 0 8px;
+}
+
+#consist {
+  width: 25%;
+}
+
+#date {
+  width: 20%;
+  height: 96%;
+  border: 3px solid #f5bd41;
+  border-radius: 8px;
+}
+
+.value {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+button {
+  height: 110%;
+  width: 17%;
+  border: none;
+  border-radius: 8px;
+  background: #3077c6;
+  color: white;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.apps {
+  margin-right: 385px;
+  margin-left: 281px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo1 {
+  margin-right: 16px;
+}
