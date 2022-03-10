@@ -13,7 +13,8 @@ header {
 .header {
   height: 46px;
   width: 1232px;
-  padding: 51px 104px 0;
+  padding-top: 51px;
+  margin: 0 104px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,6 +24,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .roboto-400 {
@@ -41,13 +43,13 @@ nav {
   width: 30px;
   height: 30px;
   margin-right: 24px;
-  fill:#ffffff;
+  fill: #ffffff;
 }
 
 .logo_acc {
   width: 40px;
   height: 40px;
-  fill:#ffffff;
+  fill: #ffffff;
 }
 
 .icons {
@@ -58,7 +60,6 @@ nav {
 
 .words {
   margin-right: 48px;
-  margin-bottom: 12px;
 }
 
 .stays {
@@ -102,9 +103,9 @@ nav {
 }
 
 .search {
-  height: 58px;
-  width: 1220px;
-  margin: 0 113px 120px 0;
+  height: 64px;
+  width: 1232px;
+  margin: 0 104px 120px 0;
   background-color: #f3f3f4;
   padding: 3px 0 3px 3px;
   border-radius: 8px;
@@ -119,11 +120,12 @@ input[type="text"] {
 
 #destination {
   width: 38%;
-  border-radius: 8px 0 0 8px;
+  border-radius: 8px;
 }
 
 #consist {
   width: 25%;
+  border-radius: 8px;
 }
 
 #date {
@@ -174,10 +176,10 @@ button {
   margin-right: 16px;
 }
 
-.logo_sett svg:hover{
-  fill:#f5bd41;
+.logo_sett svg:hover {
+  fill: #f5bd41;
 }
 
-.logo_acc svg:hover{
-  fill:#f5bd41;
+.logo_acc svg:hover {
+  fill: #f5bd41;
 }
