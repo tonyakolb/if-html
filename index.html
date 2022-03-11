@@ -9,9 +9,92 @@
     <link href="./styles/style.css" rel="stylesheet" />
     <link href="./styles/footer-style.css" rel="stylesheet" />
     <link href="./styles/fonts.css" rel="stylesheet" />
+    <link href="./styles/top-section.css" rel="stylesheet" />
     <title>Title</title>
   </head>
   <body>
+    <header class="site">
+      <div class="header">
+        <div>
+          <img src="images/logo_triphouse.svg" alt="triphouse_logo" />
+        </div>
+        <nav>
+          <div class="words">
+            <a href="/" class="stays"
+              ><span class="roboto-400 title-header">Stays</span></a
+            >
+            <a href="/"
+              ><span class="roboto-400 title-header">Attractions</span></a
+            >
+          </div>
+          <div class="icons">
+            <a href="/" class="logo_sett">
+              <svg viewBox="0 0 30 30">
+                <path
+                  d="M25.61 10.61V4.39h-6.22L15 0l-4.39 4.39H4.39v6.22L0 15l4.39 4.39v6.22h6.22L15 30l4.39-4.39h6.22v-6.22L30 15l-4.39-4.39ZM15 22.958a7.924 7.924 0 0 1-3.316-.73c2.732-1.26 4.642-4.018 4.642-7.228s-1.91-5.968-4.642-7.228A7.924 7.924 0 0 1 15 7.042c4.39 0 7.958 3.568 7.958 7.958 0 4.39-3.568 7.958-7.958 7.958Z"
+                /></svg
+            ></a>
+            <a href="/" class="logo_acc">
+              <svg viewBox="0 0 40 40">
+                <path
+                  d="M20 0C8.96 0 0 8.96 0 20s8.96 20 20 20 20-8.96 20-20S31.04 0 20 0Zm0 6c3.32 0 6 2.68 6 6s-2.68 6-6 6-6-2.68-6-6 2.68-6 6-6Zm0 28.4c-5 0-9.42-2.56-12-6.44.06-3.98 8-6.16 12-6.16 3.98 0 11.94 2.18 12 6.16-2.58 3.88-7 6.44-12 6.44Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div class="page">
+        <h1 class="main-title">
+          Discover stays <br />
+          to live, work or just relax
+        </h1>
+        <br />
+        <div class="signatures">
+          <span class="roboto-400 title-page sign"
+            >Your destination or hotel name</span
+          >
+          <span class="roboto-400 title-page">Check-in — Check-out</span>
+        </div>
+        <form>
+          <div class="search">
+            <label for="destination"></label>
+            <input
+              id="destination"
+              name="destination"
+              type="text"
+              value="New York"
+              class="value"
+            /><label for="date"></label
+            ><input
+              id="date"
+              name="date"
+              type="text"
+              value="Tue 15 Sept — Sat 19 Sept"
+              class="value"
+            /><label for="consist"></label
+            ><input
+              id="consist"
+              name="consist"
+              type="text"
+              value="2 Adults — 0 Children — 1 Room"
+              class="value"
+            /><button class="btn">Search</button>
+          </div>
+        </form>
+        <div class="apps">
+          <img
+            src="./images/google-play-badge.svg"
+            alt="link_google_play"
+            class="photo1"
+          />
+          <img
+            src="./images/Download_on_the_App_Store.svg"
+            alt="link_app_store"
+          />
+        </div>
+      </div>
+    </header>
     <div class="advantages">
       <p class="title">What do we offer</p>
       <div class="highlight"></div>
@@ -34,10 +117,10 @@
         </div>
       </div>
     </div>
-    <div class="footer">
+    <footer>
       <div class="main">
         <div class="about">
-          <a href="/"><span class="text-bold">About</span>></a>
+          <a href="/"><span class="text-bold">About</span></a>
           <a href="/"><span class="text">How Triphouse works</span></a>
           <a href="/"><span class="text">Careers</span></a>
           <a href="/"><span class="text">Privacy</span></a>
@@ -63,6 +146,6 @@
           >&copy; 2020 Triphouse, Inc. All right reserved</span
         >
       </div>
-    </div>
+    </footer>
   </body>
 </html>

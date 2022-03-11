@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  height: 100vh;
+  min-width: 1440px;
+}
+
+header {
+  background-image: url("../images/castelmezzano.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  height: 46px;
+  width: 1232px;
+  padding-top: 51px;
+  margin: 0 104px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.roboto-400 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.title-header {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.logo_sett {
+  width: 30px;
+  height: 30px;
+  margin-right: 24px;
+  fill: #ffffff;
+}
+
+.logo_acc {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.words {
+  margin-right: 48px;
+}
+
+.stays {
+  margin-right: 24px;
+}
+
+.words a {
+  text-decoration: none;
+  padding: 12px;
+}
+
+.words a:hover {
+  border-bottom: 4px solid #f5bd41;
+}
+
+.page {
+  margin-left: 104px;
+  margin-top: 196px;
+}
+
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: white;
+}
+
+.title-page {
+  font-size: 18px;
+}
+
+.signatures {
+  margin-top: 100px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+
+.sign {
+  margin-right: 221px;
+}
+
+.search {
+  height: 64px;
+  width: 1232px;
+  margin: 0 104px 120px 0;
+  background-color: #f3f3f4;
+  padding: 3px 0 3px 3px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  height: 98%;
+  border: none;
+}
+
+#destination {
+  width: 38%;
+  border-radius: 8px;
+}
+
+#consist {
+  width: 25%;
+  border-radius: 8px;
+}
+
+#date {
+  width: 20%;
+  height: 96%;
+  border-radius: 8px;
+}
+
+.value {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: #383838;
+  padding-left: 24px;
+}
+
+input.value:focus {
+  outline: none;
+  border: 3px solid #f5bd41;
+}
+
+button {
+  height: 110%;
+  width: 17%;
+  border: none;
+  border-radius: 8px;
+  background: #3077c6;
+  color: white;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.apps {
+  margin-right: 385px;
+  margin-left: 281px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo1 {
+  margin-right: 16px;
+}
+
+.logo_sett svg:hover {
+  fill: #f5bd41;
+}
+
+.logo_acc svg:hover {
+  fill: #f5bd41;
+}

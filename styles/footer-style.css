@@ -2,7 +2,7 @@ span {
   color: #ffffff;
 }
 
-.footer {
+footer {
   min-height: 630px;
   padding: 120px 272px 0 104px;
   background: #10367c;
@@ -59,4 +59,8 @@ span {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
+}
+
+a{
+  text-decoration: none;
 }
