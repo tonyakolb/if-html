@@ -1,9 +1,9 @@
 span {
-  color: #ffffff;
+  color: white;
 }
 
 footer {
-  min-height: 630px;
+  height: 630px;
   padding: 120px 272px 0 104px;
   background: #10367c;
 }
@@ -54,13 +54,80 @@ footer {
   margin: 87px 0 120px 1px;
 }
 
-.text-small {
+.document {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+.logotype{
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    padding:0;
+    max-width: 360px;
+    height: 203px;
+  }
+
+  .text {
+    display: none;
+  }
+
+  a {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 1px;
+  }
+
+  .logotype{
+    display: flex;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 131px;
+  }
+
+  .text-bold{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .before{
+    margin-left: 67px;
+  }
+
+  .after{
+    margin-right: 67px;
+  }
+
+  .about {
+    height: 18px;
+  }
+
+  .property {
+    height: 18px;
+  }
+
+  .support {
+    height: 18px;
+  }
+
+  .company {
+    margin: 32px 71px 40px;
+  }
+
+  .document {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
 }

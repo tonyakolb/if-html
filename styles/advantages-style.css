@@ -1,0 +1,97 @@
+.advantages {
+  border: 1px solid #ffffff;
+  min-height: 569px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  color: #383838;
+  margin: 120px 565px 0;
+}
+
+.highlight {
+  background: #f5bd41;
+  width: 100px;
+  min-height: 4px;
+  margin: 20px 670px 0;
+}
+
+.blocks {
+  margin: 84px 104px 0 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.block {
+  width: 296px;
+  height: 176px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-advantages {
+  margin-top: 48px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  color: #383838;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .advantages {
+    margin: 0;
+    width: 360px;
+    height: 641px;
+  }
+
+  .title {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    margin: 24px 73px 0;
+    font-weight: 500;
+  }
+
+  .block {
+    width: 214px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 32px;
+  }
+
+  .highlight {
+    display: none;
+  }
+
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .text-advantages {
+    font-size: 18px;
+    margin-top: 16px;
+  }
+
+  .blocks {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
