@@ -40,16 +40,7 @@ nav {
 }
 
 .logo_sett {
-  width: 30px;
-  height: 30px;
   margin-right: 24px;
-  fill: #ffffff;
-}
-
-.logo_acc {
-  width: 40px;
-  height: 40px;
-  fill: #ffffff;
 }
 
 .icons {
@@ -174,6 +165,18 @@ button {
 
 .photo1 {
   margin-right: 16px;
+}
+
+.sett_icon {
+  width: 30px;
+  height: 30px;
+  fill: #ffffff;
+}
+
+.acc_icon {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
 }
 
 .logo_sett svg:hover {
