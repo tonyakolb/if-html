@@ -17,7 +17,7 @@ footer {
 .about {
   display: flex;
   flex-direction: column;
-  line-height: 24px;
+  /*line-height: 24px;*/
   height: 211px;
   justify-content: space-between;
 }
@@ -100,23 +100,8 @@ a {
     font-weight: 500;
   }
 
-  .before{
-    margin-left: 67px;
-  }
-
-  .after{
-    margin-right: 67px;
-  }
-
-  .about {
-    height: 18px;
-  }
-
-  .property {
-    height: 18px;
-  }
-
-  .support {
+  .main {
+    margin: 0 67px 0;
     height: 18px;
   }
 
