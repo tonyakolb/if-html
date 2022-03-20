@@ -17,7 +17,6 @@ footer {
 .about {
   display: flex;
   flex-direction: column;
-  /*line-height: 24px;*/
   height: 211px;
   justify-content: space-between;
 }
@@ -51,7 +50,8 @@ footer {
 }
 
 .company {
-  margin: 87px 0 120px 1px;
+  margin-top: 87px;
+  margin-bottom: 120px;
 }
 
 .document {
@@ -65,13 +65,13 @@ a {
   text-decoration: none;
 }
 
-.logotype{
+.logotype {
   display: none;
 }
 
 @media only screen and (max-width: 500px) {
   footer {
-    padding:0;
+    padding: 0;
     max-width: 360px;
     height: 203px;
   }
@@ -86,14 +86,14 @@ a {
     text-decoration-thickness: 1px;
   }
 
-  .logotype{
+  .logotype {
     display: flex;
     padding-top: 40px;
     margin-bottom: 40px;
     margin-left: 131px;
   }
 
-  .text-bold{
+  .text-bold {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-style: normal;

@@ -1,3 +1,7 @@
+.container {
+  padding: 0 104px 0 104px;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -12,9 +16,7 @@ header {
 
 .header {
   height: 46px;
-  width: 1232px;
   padding-top: 51px;
-  margin: 0 104px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,7 +69,6 @@ nav {
 }
 
 .page {
-  margin-left: 104px;
   margin-top: 196px;
 }
 
@@ -95,8 +96,7 @@ nav {
 
 .search {
   height: 64px;
-  width: 1232px;
-  margin: 0 104px 120px 0;
+  margin-bottom: 120px;
   background-color: #f3f3f4;
   padding: 3px 0 3px 3px;
   border-radius: 8px;
@@ -110,17 +110,14 @@ input[type="text"] {
 }
 
 #destination {
-  width: 38%;
   border-radius: 8px;
 }
 
 #consist {
-  width: 25%;
   border-radius: 8px;
 }
 
 #date {
-  width: 20%;
   height: 96%;
   border-radius: 8px;
 }
@@ -141,7 +138,6 @@ input.value:focus {
 
 button {
   height: 110%;
-  width: 17%;
   border: none;
   border-radius: 8px;
   background: #3077c6;
@@ -156,8 +152,6 @@ button {
 }
 
 .apps {
-  margin-right: 385px;
-  margin-left: 281px;
   padding-bottom: 120px;
   display: flex;
   justify-content: center;
@@ -185,4 +179,48 @@ button {
 
 .logo_acc svg:hover {
   fill: #f5bd41;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
 }

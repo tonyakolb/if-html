@@ -9,18 +9,21 @@
   font-style: normal;
   font-weight: 500;
   color: #383838;
-  margin: 120px 565px 0;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 .highlight {
   background: #f5bd41;
   width: 100px;
   min-height: 4px;
-  margin: 20px 670px 0;
+  margin: 20px 670px 0 566px;
+  display: flex;
 }
 
 .blocks {
-  margin: 84px 104px 0 104px;
+  margin-top: 84px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,7 +31,6 @@
 }
 
 .block {
-  width: 296px;
   height: 176px;
   display: flex;
   align-items: center;
