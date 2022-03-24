@@ -36,17 +36,12 @@ footer {
 }
 
 .text-bold {
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
 }
 
 .text {
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
 }
 
 .company {
@@ -55,10 +50,7 @@ footer {
 }
 
 .document {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
 }
 
 a {
@@ -74,9 +66,6 @@ a {
     padding: 0;
     width: 100vw;
     height: 203px;
-    position: sticky;
-    top: 1541px;
-    left: 0;
   }
 
   .text {
@@ -94,11 +83,9 @@ a {
     justify-content: center;
     padding-top: 40px;
     margin-bottom: 40px;
-    /*margin-left: 131px;*/
   }
 
   .text-bold {
-    font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -110,13 +97,11 @@ a {
   }
 
   .company {
-    margin: 32px 71px 40px;
+    margin: 32px 0 40px 71px;
   }
 
   .document {
-    font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-style: normal;
-    font-weight: 400;
   }
 }

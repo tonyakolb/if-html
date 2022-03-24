@@ -5,7 +5,10 @@
 body {
   margin: 0;
   height: 100vh;
-  min-width: 1440px;
+  min-width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 header {
@@ -30,9 +33,6 @@ nav {
 }
 
 .roboto-400 {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   color: #ffffff;
 }
 
@@ -55,10 +55,6 @@ nav {
   margin-right: 48px;
 }
 
-.stays {
-  margin-right: 24px;
-}
-
 .words a {
   text-decoration: none;
   padding: 12px;
@@ -73,8 +69,6 @@ nav {
 }
 
 .main-title {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 50px;
   color: white;
@@ -123,10 +117,7 @@ input[type="text"] {
 }
 
 .value {
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   color: #383838;
   padding-left: 24px;
 }
@@ -145,9 +136,7 @@ button {
 }
 
 .btn {
-  font-family: "Roboto", sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
 }
 
@@ -181,12 +170,7 @@ button {
   fill: #f5bd41;
 }
 
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
+@media only screen and (max-width: 500px) {
   .col-1 {
     width: 8.33%;
   }
@@ -222,5 +206,34 @@ button {
   }
   .col-12 {
     width: 100%;
+  }
+
+  .container{
+    padding: 0 12px;
+  }
+
+  .title-header{
+    display: none;
+  }
+
+  .main-title {
+    font-size: 30px;
+  }
+
+  .title-page{
+    display: none;
+  }
+
+  .value {
+    font-size: 15px;
+    padding-left: 24px;
+  }
+
+  .btn {
+    font-size: 19px;
+  }
+
+  .page {
+    margin-top: 52px;
   }
 }
