@@ -105,14 +105,17 @@ input[type="text"] {
 
 #destination {
   border-radius: 8px;
+  width: 30%;
 }
 
 #consist {
   border-radius: 8px;
+  width: 27%;
 }
 
 #date {
   height: 96%;
+  width: 23%;
   border-radius: 8px;
 }
 
@@ -129,6 +132,7 @@ input.value:focus {
 
 button {
   height: 110%;
+  width: 15%;
   border: none;
   border-radius: 8px;
   background: #3077c6;
@@ -162,6 +166,10 @@ button {
   fill: #ffffff;
 }
 
+.menu_icon {
+  display: none;
+}
+
 .logo_sett svg:hover {
   fill: #f5bd41;
 }
@@ -170,7 +178,7 @@ button {
   fill: #f5bd41;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .col-1 {
     width: 8.33%;
   }
@@ -208,11 +216,11 @@ button {
     width: 100%;
   }
 
-  .container{
+  .container {
     padding: 0 12px;
   }
 
-  .title-header{
+  .title-header {
     display: none;
   }
 
@@ -220,7 +228,7 @@ button {
     font-size: 30px;
   }
 
-  .title-page{
+  .title-page {
     display: none;
   }
 
@@ -235,5 +243,20 @@ button {
 
   .page {
     margin-top: 52px;
+  }
+
+  .logo_acc {
+    margin-right: 16px;
+  }
+
+  .menu_icon {
+    display: flex;
+    width: 24px;
+    height: 16px;
+    fill: #ffffff;
+  }
+
+  .menu_icon svg:hover {
+    fill: #f5bd41;
   }
 }

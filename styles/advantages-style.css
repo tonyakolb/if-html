@@ -16,8 +16,7 @@
   background: #f5bd41;
   width: 100px;
   min-height: 4px;
-  margin: 20px 670px 0 566px;
-  display: flex;
+  margin: 0 auto;
 }
 
 .blocks {
@@ -36,7 +35,6 @@
 }
 
 .text-advantages {
-  margin-top: 48px;
   font-size: 24px;
   color: #383838;
 }
@@ -44,6 +42,7 @@
 .icon {
   width: 100px;
   height: 100px;
+  margin-bottom: 48px;
 }
 
 @media screen and (max-width: 500px) {
