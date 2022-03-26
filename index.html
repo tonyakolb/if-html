@@ -13,46 +13,60 @@
     <title>Title</title>
   </head>
   <body>
-    <header class="site">
-      <div class="header">
+    <header class="container">
+      <div class="header col-12">
         <div>
           <img src="images/logo_triphouse.svg" alt="triphouse_logo" />
         </div>
         <nav>
           <div class="words">
-            <a href="/" class="stays"
-              ><span class="roboto-400 title-header">Stays</span></a
-            >
+            <a href="/"><span class="roboto-400 title-header">Stays</span></a>
             <a href="/"
               ><span class="roboto-400 title-header">Attractions</span></a
             >
           </div>
           <svg width="0" height="0" class="hidden">
-            <symbol viewBox="0 0 40 40" id="AccountCircle">
+            <symbol viewBox="0 0 24 16" id="menu">
               <path
-                d="M20 0C8.96 0 0 8.96 0 20C0 31.04 8.96 40 20 40C31.04 40 40 31.04 40 20C40 8.96 31.04 0 20 0ZM20 6C23.32 6 26 8.68 26 12C26 15.32 23.32 18 20 18C16.68 18 14 15.32 14 12C14 8.68 16.68 6 20 6ZM20 34.4C15 34.4 10.58 31.84 8 27.96C8.06 23.98 16 21.8 20 21.8C23.98 21.8 31.94 23.98 32 27.96C29.42 31.84 25 34.4 20 34.4Z"
+                d="M0 16H24V13.3333H0V16ZM0 9.33333H24V6.66667H0V9.33333ZM0 0V2.66667H24V0H0Z"
               ></path>
             </symbol>
-            <symbol viewBox="0 0 30 30" id="night">
+            <symbol viewBox="0 0 24 24" id="AccountCircle">
               <path
-                d="M25.6101 10.6101V4.38992H19.3899L15 0L10.6101 4.38992H4.38992V10.6101L0 15L4.38992 19.3899V25.6101H10.6101L15 30L19.3899 25.6101H25.6101V19.3899L30 15L25.6101 10.6101ZM15 22.9576C13.8196 22.9576 12.6923 22.6923 11.6844 22.2281C14.4164 20.9682 16.3263 18.2096 16.3263 15C16.3263 11.7905 14.4164 9.03183 11.6844 7.77188C12.6923 7.30769 13.8196 7.04244 15 7.04244C19.3899 7.04244 22.9576 10.6101 22.9576 15C22.9576 19.3899 19.3899 22.9576 15 22.9576Z"
+                d="M12 0C5.376 0 0 5.376 0 12C0 18.624 5.376 24 12 24C18.624 24 24 18.624 24 12C24 5.376 18.624 0 12 0ZM12 3.6C13.992 3.6 15.6 5.208 15.6 7.2C15.6 9.192 13.992 10.8 12 10.8C10.008 10.8 8.4 9.192 8.4 7.2C8.4 5.208 10.008 3.6 12 3.6ZM12 20.64C9 20.64 6.348 19.104 4.8 16.776C4.836 14.388 9.6 13.08 12 13.08C14.388 13.08 19.164 14.388 19.2 16.776C17.652 19.104 15 20.64 12 20.64Z"
+              ></path>
+            </symbol>
+            <symbol viewBox="0 0 16 16" id="Night">
+              <path
+                d="M13.6587 5.65871V2.34129H10.3413L8 0L5.65871 2.34129H2.34129V5.65871L0 8L2.34129 10.3413V13.6587H5.65871L8 16L10.3413 13.6587H13.6587V10.3413L16 8L13.6587 5.65871ZM8 12.244C7.37047 12.244 6.76923 12.1026 6.23165 11.855C7.68877 11.183 8.70734 9.71176 8.70734 8C8.70734 6.28824 7.68877 4.81698 6.23165 4.145C6.76923 3.89744 7.37047 3.75597 8 3.75597C10.3413 3.75597 12.244 5.65871 12.244 8C12.244 10.3413 10.3413 12.244 8 12.244Z"
               ></path>
             </symbol>
           </svg>
           <div class="icons">
-            <a href="/" class="logo_sett"
-              ><svg class="sett_icon">
-                <use href="#night"></use></svg
-            ></a>
+            <a href="/" class="logo_sett">
+              <svg class="sett_icon">
+                <use href="#Night"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="icons">
             <a href="/" class="logo_acc">
               <svg class="acc_icon">
-                <use href="#AccountCircle"></use></svg
-            ></a>
+                <use href="#AccountCircle"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="icons">
+            <a href="/" class="logo_menu">
+              <svg class="menu_icon">
+                <use href="#menu"></use>
+              </svg>
+            </a>
           </div>
         </nav>
       </div>
       <div class="page">
-        <h1 class="main-title">
+        <h1 class="main-title col-12">
           Discover stays <br />
           to live, work or just relax
         </h1>
@@ -93,7 +107,7 @@
           <img
             src="./images/google-play-badge.svg"
             alt="link_google_play"
-            class="photo1"
+            class="google-logo"
           />
           <img
             src="./images/Download_on_the_App_Store.svg"
@@ -102,9 +116,9 @@
         </div>
       </div>
     </header>
-    <div class="advantages">
+    <div class="advantages container">
       <p class="title">What do we offer</p>
-      <div class="highlight"></div>
+      <div class="highlight-flex"><div class="highlight"></div></div>
       <div class="blocks">
         <svg width="0" height="0" class="hidden">
           <symbol
@@ -184,7 +198,7 @@
       </div>
       <div class="main">
         <div class="about">
-          <a href="/"><span class="text-bold before">About</span></a>
+          <a href="/"><span class="text-bold">About</span></a>
           <a href="/"><span class="text">How Triphouse works</span></a>
           <a href="/"><span class="text">Careers</span></a>
           <a href="/"><span class="text">Privacy</span></a>
@@ -200,7 +214,7 @@
           <a href="/"><span class="text">Hostels</span></a>
         </div>
         <div class="support">
-          <a href="/"><span class="text-bold after">Support</span></a>
+          <a href="/"><span class="text-bold">Support</span></a>
           <a href="/"><span class="text">Contact Customer Service</span></a>
           <a href="/"><span class="text">FAQ</span></a>
         </div>
