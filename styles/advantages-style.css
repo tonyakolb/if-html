@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .block {
@@ -80,6 +81,7 @@
   .icon {
     width: 70px;
     height: 70px;
+    margin: 0;
   }
 
   .text-advantages {
