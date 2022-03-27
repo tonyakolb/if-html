@@ -13,7 +13,7 @@
 }
 
 h2.homes-title:hover {
-    border-bottom: 4px solid #f5bd41;
+  border-bottom: 4px solid #f5bd41;
 }
 
 .pictures {
@@ -43,21 +43,39 @@ h2.homes-title:hover {
   color: #bfbfbf;
   font-size: 24px;
 }
-.right{
-    position: relative;
+
+.right {
+  position: relative;
 }
-.slider{
-    display: flex;
-    align-items: center;
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 94%;
+  top: 30%;
+}
+
+.mini-slider {
+  display: none;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .pictures {
+    flex-wrap: wrap;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    left:94%;
-    top: 30%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .homes {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .homes-title {
     font-size: 28px;
     margin-bottom: 32px;
@@ -65,9 +83,39 @@ h2.homes-title:hover {
 
   .hotel-name {
     font-size: 12px;
+    margin: 8px 0 4px;
   }
 
   .hotel-location {
     font-size: 12px;
+  }
+
+  .pictures {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  .picture {
+    height: 209px;
+  }
+
+  .no-photo {
+    display: none;
+  }
+
+  .mini-picture {
+    width: 156px;
+    height: 156px;
+  }
+
+  .mini-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 92%;
+    top: 30%;
   }
 }

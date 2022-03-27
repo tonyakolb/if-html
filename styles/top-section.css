@@ -178,7 +178,7 @@ button {
   fill: #f5bd41;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .col-1 {
     width: 8.33%;
   }
