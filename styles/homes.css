@@ -20,7 +20,7 @@ h2.homes-title:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .picture {
@@ -64,6 +64,11 @@ h2.homes-title:hover {
 }
 
 @media only screen and (min-width: 500px) and (max-width: 800px) {
+  .homes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .pictures {
     flex-wrap: wrap;
     justify-content: center;
@@ -74,6 +79,7 @@ h2.homes-title:hover {
   .homes {
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-bottom: 0;
   }
 
   .homes-title {

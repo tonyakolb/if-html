@@ -1,0 +1,164 @@
+.destinations__title {
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 120px;
+  margin-bottom: 104px;
+  display: flex;
+  justify-content: center;
+}
+
+.tabs {
+  height: 64px;
+  width: 50vw;
+  margin-bottom: 64px;
+  border-radius: 8px;
+  background-color: #f3f3f4;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: #f3f3f4;
+  color: #383838;
+  font-size: 24px;
+  border-radius: 0;
+}
+
+button.btn:hover  {
+  background-color: #3077c6;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.btn-1 {
+  width: 30%;
+}
+
+.btn-2 {
+  width: 30%;
+}
+
+.btn-3 {
+  width: 40%;
+}
+
+.regions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo-destinations {
+  max-width: 296px;
+  max-height: 296px;
+}
+
+.region {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.btn-block {
+  position: absolute;
+  left: 28%;
+  bottom: 57%;
+  display: none;
+}
+
+.btn-book {
+  width: 128px;
+  height: 48px;
+  color: #3077c6;
+  font-size: 18px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #3077c6;
+}
+
+div.black__square {
+  background: #000;
+  width: 294px;
+  height: 294px;
+  overflow: hidden;
+}
+
+div.region:hover img.photo-destinations {
+  opacity: 0.6;
+}
+
+.region:hover .btn-block {
+  display: block;
+}
+
+.photo-destinations__title {
+  margin-top: 25px;
+  margin-bottom: 49px;
+  font-size: 24px;
+  color: #3077c6;
+}
+
+.slider-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.arrow-down {
+  width: 40px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  .destinations__title {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 37px;
+  }
+
+  .tabs {
+    height: 32px;
+    width: 90vw;
+    margin-bottom: 24px;
+  }
+
+  .btn {
+    font-size: 19px;
+  }
+
+  .disappear {
+    display: none;
+  }
+
+  .photo-destinations {
+    max-width: 156px;
+    max-height: 156px;
+  }
+
+  div.black__square {
+    width: 155px;
+    height: 155px;
+  }
+
+  .regions {
+    justify-content: space-around;
+  }
+
+  .photo-destinations__title {
+    margin-top: 8px;
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+    .btn-block {
+        left: 26%;
+        bottom: 57%;
+    }
+
+    .btn-book {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+}

@@ -46,6 +46,23 @@
   margin-bottom: 48px;
 }
 
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .blocks {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .block{
+    margin-bottom: 40px;
+  }
+
+  .icon{
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .advantages.container {
     padding-left: 0;
@@ -72,6 +89,7 @@
     align-items: center;
     flex-direction: column;
     margin-top: 32px;
+    margin-bottom: 0;
   }
 
   .highlight {
