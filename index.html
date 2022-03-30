@@ -11,6 +11,8 @@
     <link href="./styles/fonts.css" rel="stylesheet" />
     <link href="./styles/top-section.css" rel="stylesheet" />
     <link href="./styles/homes.css" rel="stylesheet" />
+    <link href="./styles/destinations.css" rel="stylesheet" />
+    <link href="./styles/sign-up.css" rel="stylesheet" />
     <title>Title</title>
   </head>
   <body>
@@ -228,20 +230,105 @@
         </div>
       </div>
     </section>
+    <section class="destinations container">
+      <span class="destinations__title">The best destinations</span>
+      <div class="tabs">
+        <button class="btn btn-1">Regions</button>
+        <button class="btn btn-2">Cities</button>
+        <button class="btn btn-3">
+          Places <span class="disappear">of interest</span>
+        </button>
+      </div>
+      <div class="regions">
+        <div class="region">
+          <div class="black__square">
+            <img
+              src="./images/maldives.png"
+              alt="maldives"
+              class="photo-destinations"
+            />
+          </div>
+          <div class="btn-block">
+            <button class="btn-book">Book now</button>
+          </div>
+          <span class="photo-destinations__title">Maldives</span>
+        </div>
+        <div class="region">
+          <div class="black__square">
+            <img
+              src="./images/spain.png"
+              alt="spain"
+              class="photo-destinations"
+            />
+            <img src="/images/arrow.svg" alt="slider" class="mini-slider" />
+          </div>
+          <div class="btn-block">
+            <button class="btn-book">Book now</button>
+          </div>
+          <span class="photo-destinations__title">Spain</span>
+        </div>
+        <div class="region disappear">
+          <div class="black__square">
+            <img
+              src="./images/norway.png"
+              alt="norway"
+              class="photo-destinations"
+            />
+          </div>
+          <div class="btn-block">
+            <button class="btn-book">Book now</button>
+          </div>
+          <span class="photo-destinations__title">Norway</span>
+        </div>
+        <div class="region disappear">
+          <div class="black__square">
+            <img
+              src="./images/island.png"
+              alt="island"
+              class="photo-destinations"
+            />
+          </div>
+          <div class="btn-block">
+            <button class="btn-book">Book now</button>
+          </div>
+          <span class="photo-destinations__title">Island</span>
+        </div>
+      </div>
+      <div class="slider-down disappear">
+        <img class="arrow-down" src="/images/arrow-down.svg" alt="slider" />
+      </div>
+    </section>
+    <section class="container">
+      <div class="sign_up">
+        <div class="wrapper__sign-up">
+          <img src="./images/user.svg" alt="user" class="user__icon" />
+          <div class="signing">
+            <span class="sign__text"
+              >Sign up and get 20% off your first booking</span
+            >
+            <br />
+            <button class="sign__btn">Sign up</button>
+          </div>
+        </div>
+        <div class="wrapper__close-icon">
+          <img src="./images/close.svg" alt="close" class="close__icon" />
+        </div>
+      </div>
+    </section>
     <footer>
       <div class="logotype">
         <img src="/images/triphouse-logo-white.svg" alt="logo" />
       </div>
       <div class="main">
         <div class="about">
-          <a href="/"><span class="text-bold">About</span></a>
+          <a href="/"><span class="text text-bold">About</span></a>
           <a href="/"><span class="text">How Triphouse works</span></a>
           <a href="/"><span class="text">Careers</span></a>
           <a href="/"><span class="text">Privacy</span></a>
           <a href="/"><span class="text">Terms</span></a>
         </div>
         <div class="property">
-          <a href="/"><span class="text-bold">Property types</span></a>
+          <a href="/"><span class="text text-bold">Property types</span></a>
           <a href="/"><span class="text">Guests houses</span></a>
           <a href="/"><span class="text">Hotels</span></a>
           <a href="/"><span class="text">Apartments</span></a>
@@ -250,7 +337,7 @@
           <a href="/"><span class="text">Hostels</span></a>
         </div>
         <div class="support">
-          <a href="/"><span class="text-bold">Support</span></a>
+          <a href="/"><span class="text text-bold">Support</span></a>
           <a href="/"><span class="text">Contact Customer Service</span></a>
           <a href="/"><span class="text">FAQ</span></a>
         </div>
