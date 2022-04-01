@@ -13,6 +13,7 @@
     <link href="./styles/homes.css" rel="stylesheet" />
     <link href="./styles/destinations.css" rel="stylesheet" />
     <link href="./styles/sign-up.css" rel="stylesheet" />
+    <link href="./styles/reviews.css" rel="stylesheet" />
     <title>Title</title>
   </head>
   <body>
@@ -201,7 +202,7 @@
         <div class="picture mini">
           <img
             class="mini-picture"
-            src="/images/hotel-leopold.png"
+            src="/images/leopold-hotel.png"
             alt="hotel-leopold"
           />
           <span class="hotel-name">Hotel Leopold</span>
@@ -215,7 +216,7 @@
           />
           <img src="/images/arrow.svg" alt="slider" class="mini-slider" />
           <span class="hotel-name">Apartment Sunshine</span>
-          <span class="hotel-location">Santa Cruz de Tenerife,<br />Spain</span>
+          <span class="hotel-location">Santa Cruz de Tenerife,<br />Spain</span><br>
         </div>
         <div class="picture no-photo">
           <img src="/images/villa.png" alt="villa" />
@@ -313,6 +314,204 @@
         <div class="wrapper__close-icon">
           <img src="./images/close.svg" alt="close" class="close__icon" />
         </div>
+      </div>
+    </section>
+    <section class="reviews-main container">
+      <svg display="none">
+        <defs>
+          <g id="img-score-8:9">
+            <rect
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="32"
+              fill="#10367C"
+              rx="8"
+            />
+            <path
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              d="M16.1328 9.9834C17.3516 9.9834 18.3154 10.2646 19.0244 10.8271C19.7334 11.3838 20.0879 12.1309 20.0879 13.0684C20.0879 14.3867 19.2969 15.4355 17.7148 16.2148C18.7227 16.7188 19.4375 17.249 19.8594 17.8057C20.2871 18.3623 20.501 18.9834 20.501 19.6689C20.501 20.7295 20.1113 21.5791 19.332 22.2178C18.5527 22.8564 17.498 23.1758 16.168 23.1758C14.7734 23.1758 13.6924 22.877 12.9248 22.2793C12.1572 21.6816 11.7734 20.835 11.7734 19.7393C11.7734 19.0244 11.9727 18.3828 12.3711 17.8145C12.7754 17.2402 13.4346 16.7305 14.3486 16.2852C13.5635 15.8164 13.0039 15.3213 12.6699 14.7998C12.3359 14.2783 12.1689 13.6924 12.1689 13.042C12.1689 12.1104 12.5352 11.3691 13.2676 10.8184C14 10.2617 14.9551 9.9834 16.1328 9.9834ZM13.751 19.6689C13.751 20.2783 13.9648 20.7529 14.3926 21.0928C14.8203 21.4268 15.4004 21.5938 16.1328 21.5938C16.8887 21.5938 17.4746 21.4209 17.8906 21.0752C18.3125 20.7236 18.5234 20.249 18.5234 19.6514C18.5234 19.1768 18.3301 18.7432 17.9434 18.3506C17.5566 17.958 16.9707 17.5947 16.1855 17.2607L15.9307 17.1465C15.1572 17.4863 14.6006 17.8613 14.2607 18.2715C13.9209 18.6758 13.751 19.1416 13.751 19.6689ZM16.1152 11.5742C15.5293 11.5742 15.0576 11.7207 14.7002 12.0137C14.3428 12.3008 14.1641 12.6934 14.1641 13.1914C14.1641 13.4961 14.2285 13.7686 14.3574 14.0088C14.4863 14.249 14.6738 14.4688 14.9199 14.668C15.166 14.8613 15.582 15.0957 16.168 15.3711C16.8711 15.0605 17.3662 14.7354 17.6533 14.3955C17.9463 14.0498 18.0928 13.6484 18.0928 13.1914C18.0928 12.6934 17.9111 12.3008 17.5479 12.0137C17.1904 11.7207 16.7129 11.5742 16.1152 11.5742ZM24.9043 21.1104C24.623 22.2002 24.1074 23.6035 23.3574 25.3203H21.8369C22.2412 23.7383 22.543 22.2676 22.7422 20.9082H24.7725L24.9043 21.1104ZM35.583 15.6348C35.583 18.166 35.0732 20.0557 34.0537 21.3037C33.0342 22.5518 31.499 23.1758 29.4482 23.1758C28.6689 23.1758 28.1094 23.1289 27.7695 23.0352V21.3037C28.291 21.4502 28.8154 21.5234 29.3428 21.5234C30.7373 21.5234 31.7773 21.1484 32.4629 20.3984C33.1484 19.6484 33.5234 18.4707 33.5879 16.8652H33.4824C33.1367 17.3926 32.7178 17.7734 32.2256 18.0078C31.7393 18.2422 31.168 18.3594 30.5117 18.3594C29.375 18.3594 28.4814 18.0049 27.8311 17.2959C27.1807 16.5869 26.8555 15.6143 26.8555 14.3779C26.8555 13.0361 27.2305 11.9697 27.9805 11.1787C28.7363 10.3818 29.7646 9.9834 31.0654 9.9834C31.9795 9.9834 32.7764 10.2061 33.4561 10.6514C34.1357 11.0967 34.6602 11.7441 35.0293 12.5938C35.3984 13.4375 35.583 14.4512 35.583 15.6348ZM31.1006 11.6973C30.3857 11.6973 29.8379 11.9316 29.457 12.4004C29.0762 12.8633 28.8857 13.5166 28.8857 14.3604C28.8857 15.0928 29.0615 15.6699 29.4131 16.0918C29.7705 16.5078 30.3096 16.7158 31.0303 16.7158C31.7275 16.7158 32.3135 16.5078 32.7881 16.0918C33.2627 15.6758 33.5 15.1895 33.5 14.6328C33.5 14.1113 33.3975 13.625 33.1924 13.1738C32.9932 12.7168 32.7119 12.3564 32.3486 12.0928C31.9854 11.8291 31.5693 11.6973 31.1006 11.6973Z"
+            />
+          </g>
+          <g id="img-score-9:1">
+            <rect
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="32"
+              fill="#10367C"
+              rx="8"
+            />
+            <path
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              d="M20.4834 15.6348C20.4834 18.166 19.9736 20.0557 18.9541 21.3037C17.9346 22.5518 16.3994 23.1758 14.3486 23.1758C13.5693 23.1758 13.0098 23.1289 12.6699 23.0352V21.3037C13.1914 21.4502 13.7158 21.5234 14.2432 21.5234C15.6377 21.5234 16.6777 21.1484 17.3633 20.3984C18.0488 19.6484 18.4238 18.4707 18.4883 16.8652H18.3828C18.0371 17.3926 17.6182 17.7734 17.126 18.0078C16.6396 18.2422 16.0684 18.3594 15.4121 18.3594C14.2754 18.3594 13.3818 18.0049 12.7314 17.2959C12.0811 16.5869 11.7559 15.6143 11.7559 14.3779C11.7559 13.0361 12.1309 11.9697 12.8809 11.1787C13.6367 10.3818 14.665 9.9834 15.9658 9.9834C16.8799 9.9834 17.6768 10.2061 18.3564 10.6514C19.0361 11.0967 19.5605 11.7441 19.9297 12.5938C20.2988 13.4375 20.4834 14.4512 20.4834 15.6348ZM16.001 11.6973C15.2861 11.6973 14.7383 11.9316 14.3574 12.4004C13.9766 12.8633 13.7861 13.5166 13.7861 14.3604C13.7861 15.0928 13.9619 15.6699 14.3135 16.0918C14.6709 16.5078 15.21 16.7158 15.9307 16.7158C16.6279 16.7158 17.2139 16.5078 17.6885 16.0918C18.1631 15.6758 18.4004 15.1895 18.4004 14.6328C18.4004 14.1113 18.2979 13.625 18.0928 13.1738C17.8936 12.7168 17.6123 12.3564 17.249 12.0928C16.8857 11.8291 16.4697 11.6973 16.001 11.6973ZM24.9043 21.1104C24.623 22.2002 24.1074 23.6035 23.3574 25.3203H21.8369C22.2412 23.7383 22.543 22.2676 22.7422 20.9082H24.7725L24.9043 21.1104ZM32.9551 23H30.8896V14.7031C30.8896 13.7129 30.9131 12.9277 30.96 12.3477C30.8252 12.4883 30.6582 12.6436 30.459 12.8135C30.2656 12.9834 29.6094 13.5225 28.4902 14.4307L27.4531 13.1211L31.2324 10.1504H32.9551V23Z"
+            />
+          </g>
+          <g id="img-score-9:4">
+            <rect
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="32"
+              fill="#10367C"
+              rx="8"
+            />
+            <path
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              d="M20.4834 15.6348C20.4834 18.166 19.9736 20.0557 18.9541 21.3037C17.9346 22.5518 16.3994 23.1758 14.3486 23.1758C13.5693 23.1758 13.0098 23.1289 12.6699 23.0352V21.3037C13.1914 21.4502 13.7158 21.5234 14.2432 21.5234C15.6377 21.5234 16.6777 21.1484 17.3633 20.3984C18.0488 19.6484 18.4238 18.4707 18.4883 16.8652H18.3828C18.0371 17.3926 17.6182 17.7734 17.126 18.0078C16.6396 18.2422 16.0684 18.3594 15.4121 18.3594C14.2754 18.3594 13.3818 18.0049 12.7314 17.2959C12.0811 16.5869 11.7559 15.6143 11.7559 14.3779C11.7559 13.0361 12.1309 11.9697 12.8809 11.1787C13.6367 10.3818 14.665 9.9834 15.9658 9.9834C16.8799 9.9834 17.6768 10.2061 18.3564 10.6514C19.0361 11.0967 19.5605 11.7441 19.9297 12.5938C20.2988 13.4375 20.4834 14.4512 20.4834 15.6348ZM16.001 11.6973C15.2861 11.6973 14.7383 11.9316 14.3574 12.4004C13.9766 12.8633 13.7861 13.5166 13.7861 14.3604C13.7861 15.0928 13.9619 15.6699 14.3135 16.0918C14.6709 16.5078 15.21 16.7158 15.9307 16.7158C16.6279 16.7158 17.2139 16.5078 17.6885 16.0918C18.1631 15.6758 18.4004 15.1895 18.4004 14.6328C18.4004 14.1113 18.2979 13.625 18.0928 13.1738C17.8936 12.7168 17.6123 12.3564 17.249 12.0928C16.8857 11.8291 16.4697 11.6973 16.001 11.6973ZM24.9043 21.1104C24.623 22.2002 24.1074 23.6035 23.3574 25.3203H21.8369C22.2412 23.7383 22.543 22.2676 22.7422 20.9082H24.7725L24.9043 21.1104ZM36.0576 20.1963H34.3262V23H32.3135V20.1963H26.4424V18.6055L32.3135 10.1152H34.3262V18.4824H36.0576V20.1963ZM32.3135 18.4824V15.2568C32.3135 14.1084 32.3428 13.168 32.4014 12.4355H32.3311C32.167 12.8223 31.9092 13.291 31.5576 13.8418L28.3672 18.4824H32.3135Z"
+            />
+          </g>
+        </defs>
+      </svg>
+      <h2 class="reviews-title">Guests reviews</h2>
+      <h2 class="reviews-title-mini">Reviews</h2>
+      <div class="reviews">
+        <div class="review">
+          <div class="photo-caption">
+            <img src="./images/resort.png" alt="resort" class="photo" />
+            <div class="field">
+              <span class="price">From 250 USD</span>
+            </div>
+          </div>
+          <div class="resort-exposition">
+            <div class="resort-caption">
+              <span class="resort-name">Ubud Bali Resort&SPA</span>
+              <span class="resort-location">Bali, Indonesia</span>
+            </div>
+            <div class="score">
+              <svg
+                width="48"
+                height="32"
+                viewBox="0 0 48 32"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin"
+                class="grade"
+              >
+                <use xlink:href="#img-score-9:4"></use>
+              </svg>
+              <span class="amount-reviews">1324 reviews</span>
+            </div>
+          </div>
+          <div class="user">
+            <svg class="for-review">
+              <use href="#AccountCircle"></use>
+            </svg>
+            <div class="username">
+              <span class="name">Hanna Ivanova</span>
+              <div class="country">
+                <img
+                  src="./images/ukraine.png"
+                  alt="ukraine-flag"
+                  class="flag"
+                /><span class="country-name">Ukraine</span>
+              </div>
+            </div>
+          </div>
+          <div class="text-review">
+            Great location, really pleasant and clean rooms, but the thing that
+            makes this such a good place to stay are the staff. All of the
+            people are incredibly helpful and generous with their time and
+            advice.
+          </div>
+        </div>
+        <div class="review">
+          <div class="photo-caption">
+            <img src="./images/hostel.png" alt="hostel" class="hostel-photo" />
+            <div class="field">
+              <span class="price">From 40 USD</span>
+            </div>
+          </div>
+          <div class="resort-exposition">
+            <div class="resort-caption">
+              <span class="resort-name">King Kong Hostel</span>
+              <span class="resort-location">Rotterdam, Netherlands</span>
+            </div>
+            <div class="score">
+              <svg
+                width="48"
+                height="32"
+                viewBox="0 0 48 32"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin"
+                class="grade"
+              >
+                <use xlink:href="#img-score-8:9"></use>
+              </svg>
+              <span class="amount-reviews">2016 reviews</span>
+            </div>
+          </div>
+          <div class="user">
+            <svg class="for-review">
+              <use href="#AccountCircle"></use>
+            </svg>
+            <div class="username">
+              <span class="name">Adam Smith</span>
+              <div class="country">
+                <img src="./images/usa.png" alt="usa-flag" class="flag" /><span
+                  class="country-name"
+                  >USA</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="text-review">
+            I've been in this hostel for a month and here is the best hostel of
+            all Excellent management of excellent and ethical staff and bedrooms
+            Bathrooms are always clean and excellent Most importantly, those who
+            work here are kind and good-natured.
+          </div>
+        </div>
+        <div class="review">
+          <div class="photo-caption">
+            <img src="./images/hotel.png" alt="hotel" />
+            <img src="/images/arrow.svg" alt="slider" class="slider-review" />
+            <div class="field">
+              <span class="price">From 100 USD</span>
+            </div>
+
+          </div>
+          <div class="resort-exposition">
+            <div class="resort-caption">
+              <span class="resort-name">Rokoko Hotel</span>
+              <span class="resort-location">Ourika, Marocco</span>
+            </div>
+            <div class="score">
+              <svg
+                width="48"
+                height="32"
+                viewBox="0 0 48 32"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin"
+                class="grade"
+              >
+                <use xlink:href="#img-score-9:1"></use>
+              </svg>
+              <span class="amount-reviews">815 reviews</span>
+            </div>
+          </div>
+          <div class="user">
+            <svg class="for-review">
+              <use href="#AccountCircle"></use>
+            </svg>
+            <div class="username">
+              <span class="name">Anika Messer</span>
+              <div class="country">
+                <img
+                  src="./images/germany.png"
+                  alt="germany-flag"
+                  class="flag"
+                /><span class="country-name">Germany</span>
+              </div>
+            </div>
+          </div>
+          <div class="text-review">
+            Efficient, friendly, professional, and appropriately attentive.
+            Great hotel in a great location. Easy access to all the surrounding
+            historical sites. Staff is fantastic. Will definitely stay at this
+            location during my next stay in Marocco.
+          </div>
+        </div>
+        <img src="./images/navigation.svg" alt="navigation" class="navigation">
       </div>
     </section>
     <footer>
