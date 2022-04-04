@@ -4,16 +4,27 @@
   padding-bottom: 121px;
 }
 
-.homes-title {
+.homes-title-center {
   display: flex;
   justify-content: center;
+}
+
+h2.homes-title {
+  position: relative;
+  display: inline-block;
   margin-bottom: 105px;
   font-weight: 500;
   font-size: 40px;
 }
 
-h2.homes-title:hover {
-  border-bottom: 4px solid #f5bd41;
+h2.homes-title::after {
+  content: "";
+  position: absolute;
+  background: #f5bd41;
+  left: 5%;
+  bottom: -20px;
+  width: 90%;
+  height: 4px;
 }
 
 .pictures {

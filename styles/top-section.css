@@ -89,7 +89,6 @@ nav {
 }
 
 .search {
-  height: 64px;
   margin-bottom: 120px;
   background-color: #f3f3f4;
   padding: 3px 0 3px 3px;
@@ -98,25 +97,34 @@ nav {
   align-items: center;
 }
 
+input {
+  height: 58px;
+}
+
 input[type="text"] {
-  height: 98%;
   border: none;
 }
 
 #destination {
   border-radius: 8px;
-  width: 30%;
 }
 
 #consist {
   border-radius: 8px;
-  width: 27%;
 }
 
-#date {
-  height: 96%;
-  width: 23%;
+.date-first,
+.date-second {
+  width: 50%;
+}
+
+.date .value {
   border-radius: 8px;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
 }
 
 .value {
@@ -131,8 +139,7 @@ input.value:focus {
 }
 
 button {
-  height: 110%;
-  width: 15%;
+  height: 64px;
   border: none;
   background: #3077c6;
   color: white;
@@ -178,51 +185,101 @@ button {
 }
 
 @media only screen {
-  .col-1 {
+  .col-md-1 {
     width: 8.33%;
   }
 
-  .col-2 {
+  .col-md-2 {
     width: 16.66%;
   }
 
-  .col-3 {
+  .col-md-3 {
     width: 25%;
   }
 
-  .col-4 {
+  .col-md-4 {
     width: 33.33%;
   }
 
-  .col-5 {
+  .col-md-5 {
     width: 41.66%;
   }
 
-  .col-6 {
+  .col-md-6 {
     width: 50%;
   }
 
-  .col-7 {
+  .col-md-7 {
     width: 58.33%;
   }
 
-  .col-8 {
+  .col-md-8 {
     width: 66.66%;
   }
 
-  .col-9 {
+  .col-md-9 {
     width: 75%;
   }
 
-  .col-10 {
+  .col-md-10 {
     width: 83.33%;
   }
 
-  .col-11 {
+  .col-md-11 {
     width: 91.66%;
   }
 
-  .col-12 {
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
     width: 100%;
   }
 }
@@ -242,6 +299,11 @@ button {
 
   .title-page {
     display: none;
+  }
+
+  .signatures {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .value {
@@ -270,5 +332,14 @@ button {
 
   .menu_icon svg:hover {
     fill: #f5bd41;
+  }
+
+  .search {
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+
+  .apps {
+    padding-bottom: 40px;
   }
 }

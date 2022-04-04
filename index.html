@@ -89,22 +89,39 @@
               name="destination"
               type="text"
               value="New York"
-              class="value"
-            /><label for="date"></label
-            ><input
-              id="date"
-              name="date"
-              type="text"
-              value="Tue 15 Sept — Sat 19 Sept"
-              class="value"
-            /><label for="consist"></label
-            ><input
+              class="value col-s-12 col-md-4"
+            />
+            <div class="date col-md-4">
+              <div class="date-first">
+                <label for="date-in"></label>
+                <input
+                  id="date-in"
+                  name="date"
+                  type="text"
+                  value="Tue 15 Sept"
+                  class="value col-s-12"
+                />
+              </div>
+              <div class="date-second">
+                <label for="date-out"></label>
+                <input
+                  id="date-out"
+                  name="date"
+                  type="text"
+                  value="Sat 19 Sept"
+                  class="value col-s-12"
+                />
+              </div>
+            </div>
+            <label for="consist"></label>
+            <input
               id="consist"
               name="consist"
               type="text"
               value="2 Adults — 0 Children — 1 Room"
-              class="value"
-            /><button class="btn">Search</button>
+              class="value col-s-12 col-md-2"
+            />
+            <button class="btn col-s-12 col-md-2">Search</button>
           </div>
         </form>
         <div class="apps">
@@ -121,8 +138,7 @@
       </div>
     </header>
     <div class="advantages container">
-      <p class="title">What do we offer</p>
-      <div class="highlight"></div>
+      <div class="adv-title"><h2 class="title">What do we offer</h2></div>
       <div class="blocks">
         <svg width="0" height="0" class="hidden">
           <symbol
@@ -197,7 +213,9 @@
       </div>
     </div>
     <section class="homes container">
-      <h2 class="homes-title">Homes guests loves</h2>
+      <div class="homes-title-center">
+        <h2 class="homes-title">Homes guests loves</h2>
+      </div>
       <div class="pictures">
         <div class="picture mini">
           <img
@@ -367,7 +385,7 @@
       <h2 class="reviews-title">Guests reviews</h2>
       <h2 class="reviews-title-mini">Reviews</h2>
       <div class="reviews">
-        <div class="review col-4">
+        <div class="review col-md-4">
           <div class="photo-caption">
             <img src="./images/resort.png" alt="resort" class="photo" />
             <div class="field">
@@ -415,7 +433,7 @@
             advice.
           </div>
         </div>
-        <div class="review col-4">
+        <div class="review col-md-4">
           <div class="photo-caption">
             <img src="./images/hostel.png" alt="hostel" class="photo" />
             <div class="field">
@@ -462,7 +480,7 @@
             work here are kind and good-natured.
           </div>
         </div>
-        <div class="review col-4">
+        <div class="review col-md-4">
           <div class="photo-caption">
             <img src="./images/hotel.png" alt="hotel" class="photo" />
             <img src="/images/arrow.svg" alt="slider" class="slider-review" />

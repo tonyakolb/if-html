@@ -197,7 +197,7 @@ span.price {
     margin: 32px 0 40px;
   }
 
-  [class*="col-"] {
+  [class*="col-md-4"] {
     width: 100%;
   }
 }

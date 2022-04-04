@@ -3,20 +3,28 @@
   min-height: 569px;
 }
 
-.title {
-  font-size: 40px;
-  font-weight: 500;
-  color: #383838;
-  margin-top: 120px;
+.adv-title {
   display: flex;
   justify-content: center;
 }
 
-.highlight {
+h2.title {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 500;
+  color: #383838;
+  margin-top: 120px;
+}
+
+h2.title::after {
+  content: "";
+  position: absolute;
   background: #f5bd41;
-  width: 100px;
-  min-height: 4px;
-  margin: 0 auto;
+  left: 5%;
+  bottom: -20px;
+  width: 90%;
+  height: 4px;
 }
 
 .blocks {
@@ -76,7 +84,7 @@
     border: 0;
   }
 
-  .title {
+  h2.title {
     font-size: 28px;
     margin: 24px 73px 0;
     font-weight: 500;
