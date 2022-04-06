@@ -8,11 +8,10 @@
 }
 
 .tabs {
-  height: 64px;
-  width: 70vw;
+  width: 50vw;
   margin-bottom: 64px;
-  border-radius: 8px;
   background-color: #f3f3f4;
+  border-radius: 8px;
   display: flex;
 }
 
@@ -20,25 +19,14 @@
   background-color: #f3f3f4;
   color: #383838;
   font-size: 24px;
-  border-radius: 0;
+  border-radius: 8px;
+  height: 64px;
 }
 
 button.btn:hover {
   background-color: #3077c6;
   color: #ffffff;
   border-radius: 8px;
-}
-
-.btn-1 {
-  width: 30%;
-}
-
-.btn-2 {
-  width: 30%;
-}
-
-.btn-3 {
-  width: 40%;
 }
 
 .regions {
@@ -110,21 +98,26 @@ div.region:hover img.photo-destinations {
   height: 40px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .destinations__title {
     font-size: 28px;
     margin-top: 40px;
-    margin-bottom: 37px;
+    margin-bottom: 32px;
   }
 
   .tabs {
-    height: 32px;
-    width: 90vw;
+    width: 96vw;
     margin-bottom: 24px;
+    background-color: white;
+    justify-content: space-around;
+
   }
 
   .btn {
     font-size: 19px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid #F3F3F4
   }
 
   .disappear {

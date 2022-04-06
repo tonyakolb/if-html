@@ -5,7 +5,7 @@
 body {
   margin: 0;
   height: 100vh;
-  min-width: 100%;
+  max-width: 100%;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -91,7 +91,6 @@ nav {
 .search {
   margin-bottom: 120px;
   background-color: #f3f3f4;
-  padding: 3px 0 3px 3px;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -116,6 +115,7 @@ input[type="text"] {
 .date-first,
 .date-second {
   width: 50%;
+  position: relative;
 }
 
 .date .value {
@@ -145,9 +145,18 @@ button {
   color: white;
 }
 
-.btn {
+.btn-search {
   font-size: 24px;
   font-weight: 500;
+  background-color: #f3f3f4;
+  color: #383838;
+  border-radius: 8px;
+}
+
+button.btn-search:hover {
+  background-color: #3077c6;
+  color: #ffffff;
+  border-radius: 8px;
 }
 
 .apps {
@@ -184,7 +193,11 @@ button {
   fill: #f5bd41;
 }
 
-@media only screen {
+.hidden{
+  display: none;
+}
+
+@media only screen and (min-width: 783px){
   .col-md-1 {
     width: 8.33%;
   }
@@ -234,7 +247,7 @@ button {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 783px) {
   .col-s-1 {
     width: 8.33%;
   }
@@ -284,7 +297,16 @@ button {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 783px) {
+  .hidden{
+    display: flex;
+    margin-bottom: -20px;
+    color: #383838;
+    font-size: 12px;
+    position: absolute;
+    padding:6px 0 4px 24px;
+  }
+
   .container {
     padding: 0 12px;
   }
@@ -309,10 +331,20 @@ button {
   .value {
     font-size: 15px;
     padding-left: 24px;
+   margin-bottom: 8px;
   }
 
-  .btn {
+  .btn-search {
     font-size: 19px;
+    background-color: #f3f3f4;
+    color: #383838;
+    border-radius: 8px;
+  }
+
+  button.btn-search:hover {
+    background-color: #3077c6;
+    color: #ffffff;
+    border-radius: 8px;
   }
 
   .page {
@@ -337,9 +369,16 @@ button {
   .search {
     flex-wrap: wrap;
     margin-bottom: 32px;
+    background-color: #F5BD41;
+    border: 4px solid #F5BD41;
+    padding: 4px;
   }
 
   .apps {
     padding-bottom: 40px;
+  }
+
+  .date-first{
+    margin-right: 8px;
   }
 }

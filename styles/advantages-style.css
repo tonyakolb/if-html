@@ -54,7 +54,7 @@ h2.title::after {
   margin-bottom: 48px;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 800px) {
+@media only screen and (min-width: 600px) and (max-width: 800px) {
   .blocks {
     align-items: center;
     justify-content: space-between;
@@ -71,7 +71,7 @@ h2.title::after {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .advantages.container {
     padding-left: 0;
     padding-right: 0;
@@ -87,7 +87,6 @@ h2.title::after {
   h2.title {
     font-size: 28px;
     margin: 24px 73px 0;
-    font-weight: 500;
   }
 
   .block {
@@ -98,10 +97,6 @@ h2.title::after {
     flex-direction: column;
     margin-top: 32px;
     margin-bottom: 0;
-  }
-
-  .highlight {
-    display: none;
   }
 
   .icon {
