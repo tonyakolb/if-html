@@ -92,7 +92,8 @@ h2.homes-title::after {
 
   .pictures {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+
   }
 
   .picture {
@@ -121,7 +122,7 @@ h2.homes-title::after {
     font-size: 12px;
   }
 
-  div.pictures{
+  div.pictures {
     margin-top: 5px;
   }
 

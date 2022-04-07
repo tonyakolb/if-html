@@ -1,6 +1,6 @@
 footer {
   height: 630px;
-  padding: 120px 272px 0 104px;
+  padding-top: 120px;
   background: #10367c;
 }
 
@@ -58,6 +58,15 @@ a {
 
 .logotype {
   display: none;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 783px) {
+  .main{
+    margin:0 15px;
+    padding-top: 30px;
+  }
+
+
 }
 
 @media only screen and (max-width: 500px) {
