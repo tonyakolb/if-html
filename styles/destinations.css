@@ -8,45 +8,33 @@
 }
 
 .tabs {
-  height: 64px;
-  width: 50vw;
+  width: 70vw;
   margin-bottom: 64px;
-  border-radius: 8px;
   background-color: #f3f3f4;
+  border-radius: 8px;
   display: flex;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .btn {
   background-color: #f3f3f4;
   color: #383838;
   font-size: 24px;
-  border-radius: 0;
+  border-radius: 8px;
+  height: 64px;
 }
 
-button.btn:hover  {
+button.btn:hover {
   background-color: #3077c6;
   color: #ffffff;
   border-radius: 8px;
-}
-
-.btn-1 {
-  width: 30%;
-}
-
-.btn-2 {
-  width: 30%;
-}
-
-.btn-3 {
-  width: 40%;
 }
 
 .regions {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .photo-destinations {
@@ -111,21 +99,24 @@ div.region:hover img.photo-destinations {
   height: 40px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
   .destinations__title {
     font-size: 28px;
     margin-top: 40px;
-    margin-bottom: 37px;
+    margin-bottom: 32px;
   }
 
   .tabs {
-    height: 32px;
-    width: 90vw;
+    width: 96vw;
     margin-bottom: 24px;
+    background-color: white;
   }
 
   .btn {
     font-size: 19px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid #f3f3f4;
   }
 
   .disappear {
@@ -151,14 +142,15 @@ div.region:hover img.photo-destinations {
     margin-bottom: 40px;
     font-size: 12px;
   }
-    .btn-block {
-        left: 26%;
-        bottom: 57%;
-    }
 
-    .btn-book {
-        width: 80px;
-        height: 30px;
-        font-size: 12px;
-    }
+  .btn-block {
+    left: 26%;
+    bottom: 57%;
+  }
+
+  .btn-book {
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+  }
 }

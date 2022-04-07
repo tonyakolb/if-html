@@ -1,6 +1,6 @@
 footer {
   height: 630px;
-  padding: 120px 272px 0 104px;
+  padding-top: 120px;
   background: #10367c;
 }
 
@@ -32,6 +32,7 @@ footer {
 }
 
 .text-bold {
+  color: white;
   font-size: 20px;
   font-weight: 500;
 }
@@ -59,7 +60,16 @@ a {
   display: none;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 500px) and (max-width: 783px) {
+  .main{
+    margin:0 15px;
+    padding-top: 30px;
+  }
+
+
+}
+
+@media only screen and (max-width: 500px) {
   footer {
     padding: 0;
     width: 100vw;
@@ -92,6 +102,7 @@ a {
   .main {
     margin: 0 67px 0;
     height: 18px;
+    justify-content: space-around;
   }
 
   .company {
