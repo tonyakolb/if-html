@@ -1,4 +1,4 @@
-.destinations__title {
+.destinations-title {
   font-weight: 500;
   font-size: 40px;
   margin-top: 120px;
@@ -37,15 +37,15 @@ button.btn:hover {
   justify-content: space-around;
 }
 
-.photo-destinations {
-  max-width: 296px;
-  max-height: 296px;
-}
-
 .region {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+.photo-destinations {
+  max-width: 296px;
+  max-height: 296px;
 }
 
 .btn-block {
@@ -65,7 +65,7 @@ button.btn:hover {
   border: 1px solid #3077c6;
 }
 
-div.black__square {
+div.black-square {
   background: #000;
   width: 294px;
   height: 294px;
@@ -80,7 +80,7 @@ div.region:hover img.photo-destinations {
   display: block;
 }
 
-.photo-destinations__title {
+.photo-destinations-title {
   margin-top: 25px;
   margin-bottom: 49px;
   font-size: 24px;
@@ -100,7 +100,7 @@ div.region:hover img.photo-destinations {
 }
 
 @media only screen and (max-width: 650px) {
-  .destinations__title {
+  .destinations-title {
     font-size: 28px;
     margin-top: 40px;
     margin-bottom: 32px;
@@ -128,7 +128,7 @@ div.region:hover img.photo-destinations {
     max-height: 156px;
   }
 
-  div.black__square {
+  div.black-square {
     width: 155px;
     height: 155px;
   }
@@ -137,7 +137,7 @@ div.region:hover img.photo-destinations {
     justify-content: space-around;
   }
 
-  .photo-destinations__title {
+  .photo-destinations-title {
     margin-top: 8px;
     margin-bottom: 40px;
     font-size: 12px;
