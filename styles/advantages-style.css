@@ -89,6 +89,13 @@ h2.title::after {
     margin: 24px 73px 0;
   }
 
+  .blocks {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .block {
     width: 214px;
     height: 104px;
@@ -108,12 +115,5 @@ h2.title::after {
   .text-advantages {
     font-size: 18px;
     margin-top: 16px;
-  }
-
-  .blocks {
-    margin-top: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
   }
 }

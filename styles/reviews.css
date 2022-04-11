@@ -196,8 +196,4 @@ span.price {
     justify-content: center;
     margin: 32px 0 40px;
   }
-
-  [class*="col-md-4"] {
-    width: 100%;
-  }
 }

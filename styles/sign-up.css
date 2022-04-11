@@ -8,13 +8,13 @@
   padding-right: 24px;
 }
 
-.wrapper__sign-up {
+.wrapper-sign-up {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.user__icon {
+.user-icon {
   width: 86px;
   height: 86px;
   margin-right: 24px;
@@ -24,13 +24,13 @@
   padding-top: 6px;
 }
 
-.sign__text {
+.sign-text {
   color: #383838;
   font-size: 24px;
   font-weight: 500;
 }
 
-.sign__btn {
+.sign-btn {
   width: 128px;
   height: 48px;
   color: #3077c6;
@@ -41,13 +41,13 @@
   margin-top: 21px;
 }
 
-.close__icon {
+.close-icon {
   width: 26px;
   height: 26px;
   padding-top: 24px;
 }
 
-.wrapper__close-icon {
+.wrapper-close-icon {
   display: flex;
   justify-content: flex-end;
 }

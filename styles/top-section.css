@@ -1,8 +1,3 @@
-.container {
-  padding-right:104px;
-  padding-left: 104px;
-}
-
 body {
   margin: 0;
   height: 100vh;
@@ -12,13 +7,18 @@ body {
   font-weight: 400;
 }
 
-header {
+.container {
+  padding-right: 104px;
+  padding-left: 104px;
+}
+
+main {
   background-image: url("../images/castelmezzano.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.header {
+header.top-section {
   height: 46px;
   padding-top: 51px;
   display: flex;
@@ -42,16 +42,6 @@ nav {
   margin-bottom: 12px;
 }
 
-.logo_sett {
-  margin-right: 24px;
-}
-
-.icons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .words {
   margin-right: 48px;
 }
@@ -65,6 +55,40 @@ nav {
   border-bottom: 4px solid #f5bd41;
 }
 
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo_sett {
+  margin-right: 24px;
+}
+
+.sett_icon {
+  width: 30px;
+  height: 30px;
+  fill: #ffffff;
+}
+
+.acc_icon {
+  width: 40px;
+  height: 40px;
+  fill: #ffffff;
+}
+
+.menu_icon {
+  display: none;
+}
+
+.logo_sett svg:hover {
+  fill: #f5bd41;
+}
+
+.logo_acc svg:hover {
+  fill: #f5bd41;
+}
+
 .page {
   margin-top: 196px;
 }
@@ -75,18 +99,18 @@ nav {
   color: white;
 }
 
-.title-page {
-  font-size: 18px;
-}
-
 .signatures {
   margin-top: 100px;
   margin-left: 24px;
   margin-bottom: 24px;
 }
 
+.title-page {
+  font-size: 18px;
+}
+
 .sign {
-  margin-right: 221px;
+  margin-right: 150px;
 }
 
 .search {
@@ -99,17 +123,7 @@ nav {
 
 input {
   height: 58px;
-}
-
-input[type="text"] {
   border: none;
-}
-
-#destination {
-  border-radius: 8px;
-}
-
-#consist {
   border-radius: 8px;
 }
 
@@ -117,10 +131,6 @@ input[type="text"] {
 .date-second {
   width: 50%;
   position: relative;
-}
-
-.date .value {
-  border-radius: 8px;
 }
 
 .date {
@@ -168,30 +178,6 @@ button.btn-search:hover {
 
 .google-logo {
   margin-right: 16px;
-}
-
-.sett_icon {
-  width: 30px;
-  height: 30px;
-  fill: #ffffff;
-}
-
-.acc_icon {
-  width: 40px;
-  height: 40px;
-  fill: #ffffff;
-}
-
-.menu_icon {
-  display: none;
-}
-
-.logo_sett svg:hover {
-  fill: #f5bd41;
-}
-
-.logo_acc svg:hover {
-  fill: #f5bd41;
 }
 
 .hidden {
@@ -299,6 +285,15 @@ button.btn-search:hover {
 }
 
 @media only screen and (max-width: 783px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  .words {
+    display: none;
+    margin-right: 0;
+  }
+
   .hidden {
     display: flex;
     margin-bottom: -20px;
@@ -308,12 +303,27 @@ button.btn-search:hover {
     padding: 6px 0 4px 24px;
   }
 
-  .container {
-    padding: 0 12px;
-  }
-
   .title-header {
     display: none;
+  }
+
+  .logo_acc {
+    margin-right: 16px;
+  }
+
+  .logo_sett {
+    margin-right: 16px;
+  }
+
+  .menu_icon {
+    display: flex;
+    width: 24px;
+    height: 16px;
+    fill: #ffffff;
+  }
+
+  .menu_icon svg:hover {
+    fill: #f5bd41;
   }
 
   .main-title {
@@ -329,10 +339,30 @@ button.btn-search:hover {
     margin-bottom: 0;
   }
 
+  .page {
+    margin-top: 52px;
+  }
+
+  .search {
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    background-color: #f5bd41;
+    border: 4px solid #f5bd41;
+    padding: 4px;
+  }
+
   .value {
     font-size: 15px;
     padding-left: 24px;
     margin-bottom: 8px;
+  }
+
+  .date {
+    width: 100%;
+  }
+
+  .date-first {
+    margin-right: 8px;
   }
 
   .btn-search {
@@ -348,42 +378,7 @@ button.btn-search:hover {
     border-radius: 8px;
   }
 
-  .page {
-    margin-top: 52px;
-  }
-
-  .logo_acc {
-    margin-right: 16px;
-  }
-
-  .menu_icon {
-    display: flex;
-    width: 24px;
-    height: 16px;
-    fill: #ffffff;
-  }
-
-  .menu_icon svg:hover {
-    fill: #f5bd41;
-  }
-
-  .search {
-    flex-wrap: wrap;
-    margin-bottom: 32px;
-    background-color: #f5bd41;
-    border: 4px solid #f5bd41;
-    padding: 4px;
-  }
-
   .apps {
     padding-bottom: 40px;
-  }
-
-  .date-first {
-    margin-right: 8px;
-  }
-
-  .date{
-    width: 100%;
   }
 }
